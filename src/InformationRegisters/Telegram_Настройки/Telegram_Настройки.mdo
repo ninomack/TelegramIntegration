@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fda4771-1e15-403a-b6e1-55e55934103e">
+  <producedTypes>
+    <selectionType typeId="f5621c74-1cd4-41bc-b0f4-3406ba0f6423" valueTypeId="d8703fe8-8607-4cb4-a171-d3b888a372ec"/>
+    <listType typeId="63c758c4-cb79-4fd9-b8ac-b8d26cdab396" valueTypeId="8f7fe24c-4532-4c73-933d-47cc157001ab"/>
+    <managerType typeId="036e6d2d-9587-4881-9ea9-0de25f44caa5" valueTypeId="fb3e2563-9c11-4030-8930-5bebe19decbc"/>
+    <recordSetType typeId="7bac5561-030f-4c40-aed0-15c983a9d847" valueTypeId="cfe188c8-5601-4056-a2f3-035b0ce17040"/>
+    <recordKeyType typeId="a617c933-cbbd-4621-bc63-508824866005" valueTypeId="3adc7dea-accd-49e1-b0f0-08b0a84dfef3"/>
+    <recordType typeId="c39bbe54-f313-47cc-8405-675273144053" valueTypeId="130c75e7-01e5-4bd9-b88b-78f8d95fe593"/>
+    <recordManagerType typeId="93d51d65-bb78-4e99-b805-16b7b318acb7" valueTypeId="c93cfeaf-8dfb-40dd-91d1-c8fccda22ca9"/>
+  </producedTypes>
+  <name>Telegram_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="81ce0991-35b0-410b-beca-eee3e8351dae">
+    <name>Token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="dc1f0608-9ffa-4e59-bbac-9c2d9555a60b">
+    <name>Bot</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bot</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a89ebf8b-21ea-49c6-8285-98ccf7d0e43d">
+    <name>Api</name>
+    <synonym>
+      <key>ru</key>
+      <value>Api</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
